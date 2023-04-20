@@ -1,0 +1,10 @@
+#notepad {
+    background-color: yellow;
+    display: flex;
+
+}
+
+#textbox {
+    background-color: yellow;
+    display: flex;
+}
