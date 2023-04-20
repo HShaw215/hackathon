@@ -28,6 +28,8 @@ document.addEventListener('keydown', (e) => {
     const list = document.createElement('li');
         //append textbox info to list element
     const note = document.getElementById('text').value;
+    //make it so no empty dots can just be added
+    if (note === '') return;
     //add note to local storage to save when closed
     // localStorage.setItem(, node)
     // console.log(note)
@@ -64,10 +66,14 @@ document.addEventListener('click', (e) => {
         console.log(localStorage)
         index--;
         localStorage.setItem('index', index);
-        console.log(localStorage);
+        // for (let i = index ; i > -1; i--){
+        //     let lest =  document.getElementById(i)
+        //     if (lest === 'null') return;
+        //     lest.setAttribute('id', i - 1)
+        //     localStorage.setItem(index, lest)
+        // }
     }
 })
-
 
 // const dots = document.getElementsByTagName("li");
 // for (const dot of dots){
@@ -94,9 +100,10 @@ document.getElementById("clickMe").onclick = function(){
     }
     let length = localStorage.length;
     localStorage.clear();
+    console.log(doc)
     // let doc = document.getElementById('unordered')
     //invoke a for loop up until the length of local storage
-    for (let i = 0; i < index ; i++) {
+    for (let i = 0; i < index; i++) {
         let el = document.getElementById(i);
         doc.removeChild(el);
     }
