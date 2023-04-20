@@ -12,5 +12,6 @@ Ideas for Cool Google Chrome Extension:
 
     Current Direction: Combining 3 and 4, sticky notes app that plays funny noise
         Update: Got sticky note formatted and working. Next step is to see how it looks as a chrome extension, and need to save the data added to the note when refreshed. Also figure out how to delete notes
+        Update 2: Just need to figure out how to delete from sticky note
 
 Implimentation Notes/Ideas:

@@ -1,15 +1,12 @@
 {
-    "name": "",
+    "name": "Sticky",
     "version": "1.0.0",
-    "description": "",
+    "description": "The best sticky note extension on the web",
     "manifest_version": 3,
     "permissions":["storage", "tabs"],
-    "content_scripts": {
-        "js": ["main.js"]
-    },
     "authors": "Yueran Li, and Hunter Shaw",
     "action":{
         "default_popup": "index.html",
-        "default_title": ""
+        "default_title": "Sticky"
     }
 }

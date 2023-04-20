@@ -2,9 +2,9 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    min-width: 200px;
-    min-height: 500px;
-    border: 10px solid black;
+    min-width: 100px;
+    min-height: 200px;
+    border: 2px solid black;
     padding-bottom: 10px;
 }
 
@@ -24,7 +24,14 @@ ul {
 
 #text {
     background-color: yellow;
-    max-width: 300px;
+    max-width: 200px;
     border: none;
     margin-left: 25px;
+}
+
+button {
+
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
 }
