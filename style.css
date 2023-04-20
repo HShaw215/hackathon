@@ -1,5 +1,5 @@
 #notepad {
-    background-color: yellow;
+    background-color: #b0dab9;
     display: flex;
     flex-direction: column;
     min-width: 100px;
@@ -15,7 +15,7 @@ ul {
 }
 
 #textbox {
-    background-color: yellow;
+    background-color: #b0dab9;
     display: flex;
     flex-direction: column;
     min-height: 50px;
@@ -23,15 +23,15 @@ ul {
 }
 
 #text {
-    background-color: yellow;
+    background-color: #b0dab9;
     max-width: 200px;
     border: none;
     margin-left: 25px;
 }
 
 button {
-    height: 18px;
+    height: 26px;
     width: 50px;
     font-size: 10px;
-    background-color: rgb(178, 178, 4);
+    background-color: rgb(137, 178, 4);
 }
